@@ -1,0 +1,14 @@
+--Roblos ban script
+--This shit will ban you on roblox if you execute it (after 20 mins)
+--Made by Invisible_#3657
+game.Players:Chat("r u")
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("r u","All")
+game.Players:Chat("/e https://roblox.com/games/")
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("/e https://roblox.com/games/","All")
+game.Players:Chat("gay")
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("gay","All")
+
+for _,v in pairs(game.Players:GetPlayers()) do
+if v:IsA("Player") then
+v:Kick("You has been banned for the reason:                                                    Trying Dupe")
+end end
